@@ -1,0 +1,75 @@
+.products{
+    max-width: 1300px;
+    margin: 0 auto
+}
+
+.contenedor_inputs{
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.right-l-2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.right-l-2 div{
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img_api{
+    width: 170px;
+    height: 170px;
+    margin: .5rem 0;
+}
+
+.right-l-2 div h2{
+    margin:.7rem 0;
+}
+
+.titulo_api{
+    font-size: 14px;
+    margin:.7rem 0;
+    text-decoration: none;
+    color: #000;
+}
+
+.precio_api{
+    font-size: 15PX;
+    font-weight: BOLD;
+    text-transform: uppercase;
+}
+
+.categoria_api{
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: bold;
+    margin: .3rem 0;
+}
+.right-l-2 div button {
+    border: none;
+    outline: none;
+    margin-top: .3rem;
+    padding: .4rem;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+    background-color: rgb(151, 247, 215);
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.right-l-2 div button:hover{
+    background-color: rgb(98, 236, 190);
+}
