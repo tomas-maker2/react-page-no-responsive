@@ -1,7 +1,6 @@
 import React from 'react'
 import './navbar.css'
 import {AiOutlineArrowDown} from 'react-icons/ai'
-import {AiOutlineShoppingCart} from 'react-icons/ai'
 import {Link} from 'react-router-dom'
 
 
@@ -42,10 +41,7 @@ const Navbar = () => {
           <Link className='link' to={"/"}>Contact</Link>
         </div>
         
-        <div className="cartIcon">
-          <AiOutlineShoppingCart/>
-          <span>0</span>
-        </div>
+        
 
        
 
